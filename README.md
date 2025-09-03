@@ -1,6 +1,6 @@
 # Easy pythag
 
-Can determine the hypotenuse of if the triange is a right-angle one.
+Quickly determine a hypotenuse or if the triange is a right-angle one.
 
 ### Hypotenuse
 
