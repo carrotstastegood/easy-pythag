@@ -2,10 +2,10 @@
 
 Can determine the hypotenuse of if the triange is a right-angle one.
 
-## Hypotenuse
+### Hypotenuse
 
 Input "c" when it asks for number three to get the Hypotenuse
 
-## Right-angle
+### Right-angle
 
 Input the numbers of all 3 sides to determine if the triangle is right-angle or not.
