@@ -12,20 +12,22 @@ function forC() { // Calculate for c
 };
 
 function isRight() { // Check if triangle is right-angled
-    if (c !== "c") {
-        c = parseFloat(c);
-        cSQ = c * c; // Square c if it's a number
-    }
+    
+    c = parseFloat(c);
+    c = c * c; // Square
 
-    if (a + b === cSQ) { // Compare a + b to c
-        alert(`Triangle is right-angled. (c = ${c})`); // Alert if true
+    a = a*a; // Squace
+    b = b*b; // Square
+
+    if (a + b === c) { // Compare a + b to c
+        alert(`Triangle is right-angled. a^2 (${a}) + b^2 (${b}) = c (${c})`); // Is true
     } else {
-        alert(`Triangle is not right-angled. (c = ${c})`); // Alert if false
+        alert(`Triangle is not right-angled. a^2 (${a}) + b^2 (${b}) ≠ c (${c})`); // Is false
     };
 };
 
-if (c === "c") { // Decide which function to call
-    forC();
+if (c === "c") {
+    forC(); // Solve for c
 } else {
-    isRight();
+    isRight(); // Determine if triangle is right.
 };
