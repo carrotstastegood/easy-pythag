@@ -17,7 +17,7 @@ function isRight() { // Check if triangle is right-angled
         cSQ = c * c; // Square c if it's a number
     }
 
-    if (a + b === cS) { // Compare a + b to c
+    if (a + b === cSQ) { // Compare a + b to c
         alert(`Triangle is right-angled. (c = ${c})`); // Alert if true
     } else {
         alert(`Triangle is not right-angled. (c = ${c})`); // Alert if false
