@@ -16,7 +16,7 @@ function isRight() { // Check if triangle is right-angled
     c = parseFloat(c);
     c = c * c; // Square
 
-    a = a*a; // Squace
+    a = a*a; // Square
     b = b*b; // Square
 
     if (a + b === c) { // Compare a + b to c
