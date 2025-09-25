@@ -2,8 +2,8 @@ var a = prompt("First number:"); // Get a and square it
 var b = prompt("Second number:"); // Get b and square it
 var c = prompt("Third number (or 'c' if unknown):"); // Get c or 'c'
 
-a *= parseFloat(a);
-b *= parseFloat(b);
+a *= parseFloat(a); // Square a
+b *= parseFloat(b); // Square b
 
 function forC() { // Calculate for c
     c = a + b;
@@ -13,11 +13,7 @@ function forC() { // Calculate for c
 
 function isRight() { // Check if triangle is right-angled
     
-    c = parseFloat(c);
-    c = c * c; // Square
-
-    a = a*a; // Square
-    b = b*b; // Square
+    c *= parseFloat(c); // Square
 
     if (a + b === c) { // Compare a + b to c
         alert(`Triangle is right-angled. a^2 (${a}) + b^2 (${b}) = c (${c})`); // Is true
